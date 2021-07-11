@@ -1,0 +1,53 @@
+<!-- SAURABH CHANDRA, 1CR18IS133, COPYRIGHTED CODE-->
+<html>
+	<head>
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--CSS-->
+        <link rel="stylesheet" href="1CR18IS133_CAL_CSS.css" type="text/css" />
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" class="display" id="display">
+      <div class="btns" id="btns">
+        <div class="row" id="btns">
+          <button id="btnac" value="AC" onclick="ac()">AC</button>
+          <button id="btnclr" value="C" onclick="clr()">C</button>
+          <button id="btnmod" value="%" class="btnopr" onclick="dis('%')">%</button>
+          <button id="btndiv" value="÷" class="btnopr" onclick="dis('/')">÷</button>
+        </div>
+        <div class="row" id="btns">
+          <button id="btn7" value="7" class="btnnum" onclick="dis('7')">7</button>
+          <button id="btn8" value="8" class="btnnum" onclick="dis('8')">8</button>
+          <button id="btn9" value="9" class="btnnum" onclick="dis('9')">9</button>
+          <button id="btnMul" value="×" class="btnopr" onclick="dis('*')">×</button>
+        </div>
+        <div class="row" id="btns">
+          <button id="btn4" value="4" class="btnnum" onclick="dis('4')">4</button>
+          <button id="btn5" value="5" class="btnnum" onclick="dis('5')">5</button>
+          <button id="btn6" value="6" class="btnnum" onclick="dis('6')">6</button>
+          <button id="btnSub" value="-" class="btnopr" onclick="dis('-')">-</button>
+        </div>
+        <div class="row" id="btns">
+          <button id="btn1" value="1" class="btnnum" onclick="dis('1')">1</button>
+          <button id="btn2" value="2" class="btnnum" onclick="dis('2')">2</button>
+          <button id="btn3" value="3" class="btnnum" onclick="dis('3')">3</button>
+          <button id="btnAdd" value="+" class="btnopr" onclick="dis('+')">+</button>
+        </div>
+        <div class="row" id="btns">
+          <button id="btn0" value="0" class="btnnum" onclick="dis('0')">0</button>
+          <button id="btndot" value="." class="btnnum" onclick="dis('.')">.</button>
+          <button id="btnEql" onclick="solve()">=</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      SAURABH CHANDRA
+    </footer>
+
+        <!--JS-->
+		<script src="1CR18IS133_CAL_JS.js" type="text/javascript"></script>
+    
+	</body>
+</html>

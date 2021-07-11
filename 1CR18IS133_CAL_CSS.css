@@ -1,0 +1,101 @@
+html{
+    box-sizing: border-box;
+}
+  
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.container {
+    position: relative;
+    min-width: 258px;
+    margin: 20px;
+    background-image: linear-gradient(145deg, #404040, #12171b);
+    border: 2px solid #2f2f2f;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  
+
+
+.display {
+    min-height: 140px;
+    margin: 35px 20px 35px 20px;
+    width: 340px;
+    color: #1c1b1b;
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: 300;
+    text-align: right;
+    border-radius: 15px;
+}
+
+.btns {
+    margin: 15px;
+  }
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 68px;
+    height: 68px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(58, 58, 58);
+    color: #e8e8e8;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    transition: 0.2s ease-in-out;
+  }
+
+
+.btnnum:hover{
+    background-color: white;
+    color: black;
+}
+
+.btnopr:hover{
+    background-color: #faa11b;
+}
+
+#btnac{
+    background-color: #087c5d99;
+    color: #00ffba;
+}
+  
+#btnac:hover {
+    background-color: #087c5d;
+}
+
+#btnclr{
+    background-color: #007bff99;
+}
+
+#btnclr:hover {
+    background-color: #007bff;
+}
+
+#btnEql {
+      background-color: #04abcc;
+      width: 154px;
+}
+
+#btnEql:hover {
+    background-color: #04C7F0;
+}
+
